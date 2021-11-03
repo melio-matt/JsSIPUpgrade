@@ -126,6 +126,11 @@ class Sip {
   }
 }
 
+
+try {
 const SipService = new Sip();
+} catch (e) {
+  console.log(e.message);
+}
 
 AppRegistry.registerComponent(appName, () => App);

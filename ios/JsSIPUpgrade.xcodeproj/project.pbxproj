@@ -161,6 +161,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				A5E951BD0BC3760286EA8C9A /* [CP] Copy Pods Resources */,
+				3C050EDDCCBA2838F2B09ADC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +184,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				2F04BAAA76F9D2AD2CE187DB /* [CP] Copy Pods Resources */,
+				52F49AFC8324FAF228994157 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +302,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade/Pods-JsSIPUpgrade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C050EDDCCBA2838F2B09ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade-JsSIPUpgradeTests/Pods-JsSIPUpgrade-JsSIPUpgradeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade-JsSIPUpgradeTests/Pods-JsSIPUpgrade-JsSIPUpgradeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade-JsSIPUpgradeTests/Pods-JsSIPUpgrade-JsSIPUpgradeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F49AFC8324FAF228994157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade/Pods-JsSIPUpgrade-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade/Pods-JsSIPUpgrade-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JsSIPUpgrade/Pods-JsSIPUpgrade-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8235A423E27A17D3B2B7A594 /* [CP] Check Pods Manifest.lock */ = {
